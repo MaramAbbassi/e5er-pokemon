@@ -263,6 +263,7 @@ public class PokemonService {
 
 
         // Récupérer l'utilisateur
+        /*
         User user = userServiceClient.getUserById(userId);
         if (user == null) {
             throw new IllegalArgumentException(" Utilisateur non trouvé.");
@@ -273,7 +274,7 @@ public class PokemonService {
         if (user.getLimCoins() < coutEnLimcoins) {
             throw new IllegalArgumentException("L'utilisateur n'a pas assez de Limcoins.");
         }
-
+        */
 
 
         // Calculer le délai d'attente
